@@ -1,0 +1,31 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <mat-card>
+                    <mat-card-header>
+                    <mat-card-title>
+                        Read the instructions carefully
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        One step more to go 
+                    </mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <h3>{{quiz.title}}</h3>
+                        <p>{{quiz.description}}</p>
+                        <mat-divider></mat-divider>
+                        <br/>
+                        <h1>Important Instructions</h1>
+                        <ul>
+                            <li>Quiz is only for practice purpose </li>
+                        </ul>
+                    </mat-card-content>
+                    <mat-card-actions class="text-center">
+                        <button mat-raised-button color="primary" (click)="startQuiz()">Start Quiz </button>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
